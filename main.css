@@ -57,26 +57,59 @@ body{
                 }
 
                 .form{
+                    display: inline-block;
+                    width: 100%;
 
                 }
 
                 .form-row{
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom:30px;
+                }
 
+                .form-row:last-of-type{
+                    margin-bottom:0px;
                 }
 
                 label{
-
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 5px;
+                    text-transform: uppercase;
+                    color: grey;
+                    font-size: 16px;
                 }
 
                 input{
-
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 20px;
+                    border: none;
+                    border-bottom: 1px solid grey;
                 }
 
+                    .btn{
+                        display: inline-block;
+                        background-color: #3E53B0;
+                        color:white;
+                        padding:10px 50px 10px 50px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                        line-height: 20px;
+                        }
+
                     .or{
+                        display: inline-block;
+                        padding:10px 30px 0px 30px;
+                        line-height:20px;
 
                     }
 
                     .blue-link{
+                        display: inline-block;
+                        padding:10px 0px 10px 0px;
+                        line-height:20px;
 
                     }
 
